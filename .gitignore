@@ -1,0 +1,11 @@
+*.*user
+/.vs/*
+/garbage
+/build/output
+/build/msvc/.vs
+/build/msvc/x64
+/build/msvc/Debug
+/build/msvc/Release
+/build/msvc/.opencppcov/*
+/build/msvc/wtmux.vcxproj.user
+/build/msvc/LastCoverageResults.log

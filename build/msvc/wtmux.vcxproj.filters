@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="util">
+      <UniqueIdentifier>{a03504d4-51c5-4fca-8e92-5e4ef55b198c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="docs">
+      <UniqueIdentifier>{2558c252-2278-42f5-a909-a7cad9f04fe4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\LICENSE">
+      <Filter>docs</Filter>
+    </None>
+    <None Include="..\..\README.md">
+      <Filter>docs</Filter>
+    </None>
+    <None Include="..\..\TODO.md">
+      <Filter>docs</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\sources\util\util.hpp">
+      <Filter>util</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\sources\main.cpp" />
+    <ClCompile Include="..\..\sources\util\util.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
